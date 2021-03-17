@@ -1,0 +1,48 @@
+<!-- <h3>VIEW USER DETAILS</h3>
+<div>
+
+<div>
+    <label> <b> First Name: </b></label>{{user.firstName}}
+</div>
+
+<div>
+    <label><b> Last Name: </b></label>{{ user.lastName}}
+</div>
+<div>
+    <label><b>Email: </b></label>{{user.email}}
+</div>
+
+</div> -->
+
+
+
+<div class="container">
+
+    <div class="card">
+        <h3 class="text-center">Users DETAILS </h3>
+        <div class="card-body">
+            <table class="table table-striped">
+
+                <thead>
+                    
+                    <th>First Name </th>
+                    <th>Last Name</th>
+                    <th>Email </th>
+                    
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>{{ user.firstName }}</td>
+                        <td>{{ user.lastName }}</td>
+                        <td>{{ user.email }}</td>
+                        
+                    </tr>
+                
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+</div>
